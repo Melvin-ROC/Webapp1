@@ -22,7 +22,7 @@ if(isset($_POST['username'])) {
     if($username == "Melvin" && $password == "123") {
         $_SESSION['name'] = $username;
     } else {
-        echo "Wachtwoord verkeerd";
+        echo "Wachtwoord is niet goed!";
     }
 }
 
